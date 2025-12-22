@@ -13,6 +13,7 @@ A modern, minimal starter template for building web applications with Vue 3, Typ
 - **Router** - Vue Router integration for navigation
 - **State Management** - Pinia stores setup
 - **API Service** - Pre-configured API service layer
+- **Zod** - TypeScript-first schema validation with static type inference
 
 ## Project Structure
 
