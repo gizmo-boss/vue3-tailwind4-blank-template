@@ -46,7 +46,7 @@ src/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/gizmo-boss/vue3-tailwind4-blank-template
 cd vue3-tailwind4-blank-template
 ```
 
