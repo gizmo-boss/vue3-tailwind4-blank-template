@@ -15,6 +15,15 @@ A modern, minimal starter template for building web applications with Vue 3, Typ
 - **API Service** - Pre-configured API service layer
 - **Zod** - TypeScript-first schema validation with static type inference
 
+## Current Stack Versions
+
+- `vue` `^3.5.28`
+- `vite` `^7.3.1`
+- `tailwindcss` `^4.2.0`
+- `typescript` `~5.9.3`
+- `pinia` `^3.0.4`
+- `vue-router` `^5.0.3`
+
 ## Project Structure
 
 ```
@@ -39,8 +48,8 @@ src/
 
 ### Prerequisites
 
-- Node.js (v16 or higher)
-- npm or yarn
+- Node.js `20.19+` or `22.12+`
+- npm `10+`
 
 ### Installation
 
@@ -65,9 +74,25 @@ The application will be available at `http://localhost:5173`
 ## Available Scripts
 
 - `npm run dev` - Start the development server
-- `npm run build` - Build for production
+- `npm run build` - Type-check and build for production
 - `npm run preview` - Preview the production build
 - `npm run lint` - Run ESLint to check code quality
+- `npm run lint:fix` - Auto-fix ESLint issues where possible
+- `npm run format` - Format source files with Prettier
+- `npm run format:check` - Verify formatting without changes
+- `npm run init` - Install project dependencies
+
+## Quality Checks
+
+Before pushing changes, run:
+
+```bash
+npm run format:check
+npm run lint
+npm run build
+```
+
+This order keeps the code style consistent, validates lint rules, and confirms type-safe production build output.
 
 ## Configuration Files
 
