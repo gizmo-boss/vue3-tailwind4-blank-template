@@ -17,12 +17,15 @@ A modern, minimal starter template for building web applications with Vue 3, Typ
 
 ## Current Stack Versions
 
-- `vue` `^3.5.28`
-- `vite` `^7.3.1`
-- `tailwindcss` `^4.2.0`
-- `typescript` `~5.9.3`
+- `vue` `^3.5.34`
+- `vite` `^8.0.13`
+- `tailwindcss` `^4.3.0`
+- `typescript` `~6.0.3`
 - `pinia` `^3.0.4`
-- `vue-router` `^5.0.3`
+- `vue-router` `^5.0.7`
+- `axios` `^1.16.1`
+- `zod` `^4.4.3`
+- `eslint` `^10.3.0`
 
 ## Project Structure
 
@@ -48,7 +51,7 @@ src/
 
 ### Prerequisites
 
-- Node.js `20.19+` or `22.12+`
+- Node.js `20.19+` or `22.12+` (recommended: latest LTS)
 - npm `10+`
 
 ### Installation
@@ -93,6 +96,15 @@ npm run build
 ```
 
 This order keeps the code style consistent, validates lint rules, and confirms type-safe production build output.
+
+## First Page UI
+
+The default first screen (`src/views/Home.vue`) is updated to a modern landing layout:
+
+- Responsive hero section with stack badges
+- Light/dark mode toggle with localStorage persistence
+- Interactive reactivity widgets (counter + greeting input)
+- "Next steps" panel for onboarding new project contributors
 
 ## Configuration Files
 
